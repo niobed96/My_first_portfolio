@@ -3,11 +3,12 @@ body,main{
 }
 body{
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
 }
 main{
     flex-direction: row;
     flex: auto;
-
 }
 article{
     flex: 2;
@@ -16,4 +17,9 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+}
+img.logo{
+    position: absolute;
+    top: 2%;
+    left:3%;
 }
